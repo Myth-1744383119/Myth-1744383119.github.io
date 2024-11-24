@@ -1,0 +1,45 @@
+body {
+    background-image: url("../IMAGE/LiuXing.jpg");
+}
+
+div#center {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 500px;
+    height: 550px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+
+div#center h1 {
+    font-family: "FangSong";
+    text-align: center;
+}
+
+div#center div#form_div {
+    text-align: center;
+}
+
+div#center div#form_div form#form label#form_input_name {
+    width: 50%;
+    height: 30%
+}
+
+div#center div#form_div form#form label#form_input_passwordd {
+    width: 50%;
+    height: 30%
+}
+
+div#center div#form_div form#form input#verify {
+    width: 30%;
+    height: 20%
+    border-color: transparent;
+    border-radius: 30px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "FangSong";
+}
