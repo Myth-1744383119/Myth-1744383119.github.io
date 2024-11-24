@@ -8,6 +8,6 @@ function handleFormSubmit(event) {
         window.location.replace("../HTML/home.html");
     }
     else {
-        alert(name + "祝你被三楼的梨核砸");
+        alert(name + "，祝你被三楼的梨核砸");
     }
 }
