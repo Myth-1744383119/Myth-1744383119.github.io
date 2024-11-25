@@ -8,7 +8,7 @@ function handleFormSubmit(event) {
         alert("创前任离合，出神_____。");
     }
     else if (password == "20241124") {
-        window.location.replace("../HTML/get404.html");
+        window.location.replace("404.html");
     }
     else {
         alert(name + "，祝你被三楼的梨核砸");
