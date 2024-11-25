@@ -1,38 +1,33 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
-    <title>你有码吗_梨核警告</title>
+    <title>主页_梨核警告</title>
     <meta charset="UTF-8">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="梨核警告">
+    <meta property="og:title" content="主页">
+    <meta property="og:description" content="主页 - 梨核警告">
+    <meta property="og:url" content="https://pearpit.github.io/home">
     <link rel="icon" type="image/x-icon" href="LiHe.ico">
     <link rel="stylesheet" type="text/css" href="index.css">
-    <base href="https://pearpit.github.io/">
 </head>
 <body>
-    <div id="center">
+    <div id="center_div">
         <h1>- 梨核警告 -</h1>
         <br>
-        <br>
-        <div id="form_div">
-            <form id="form" onsubmit="handleFormSubmit(event)">
-                <label id="form_input_name">输入名字：<input type="text" id="name"></label>
-                <br>
-                <br>
-                <br>
-                <br>
-                <label id="form_input_password">输入密码：<input type="password" id="password"></label>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <input type="submit" id="verify" value="验证">
-            </form>
+        <div id="options_div">
+            <button class="options" onclick="eventThrow(event)">梨核模拟</button><button class="options" onclick="event404(event)">错误404</button>
+            <br><br><br>
+            <button class="options" onclick="event404(event)">错误404</button><button class="options" onclick="event404(event)">错误404</button>
+            <br><br><br>
+            <button class="options" onclick="event404(event)">错误404</button><button class="options" onclick="event404(event)">错误404</button>
+            <br><br><br>
+            <button class="options" onclick="event404(event)">错误404</button><button class="options" onclick="event404(event)">错误404</button>
+            <br><br><br>
+            <button class="options" onclick="event404(event)">错误404</button><button class="options" onclick="event404(event)">错误404</button>
+            <script src="throw.js"></script>
+            <script src="404.js"></script>
         </div>
-        <script src="index_form.js"></script>
     </div>
 </body>
 </html>

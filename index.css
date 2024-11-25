@@ -1,45 +1,37 @@
 body {
-    background-image: url("../IMAGE/LiuXing.jpg");
+    background-image: url("LiuXing.jpg");
 }
 
-div#center {
+div#center_div {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
-    width: 500px;
-    height: 550px;
+    width: 40%;
+    height: 90%;
     border-radius: 20px;
     background-color: #FFFFFF;
 }
 
-div#center h1 {
+div#center_div h1 {
     font-family: "FangSong";
     text-align: center;
 }
 
-div#center div#form_div {
-    text-align: center;
+div#center_div div#options_div {
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 80%;
 }
 
-div#center div#form_div form#form label#form_input_name {
+div#center_div div#options_div button.options {
     width: 50%;
-    height: 30%
-}
-
-div#center div#form_div form#form label#form_input_passwordd {
-    width: 50%;
-    height: 30%
-}
-
-div#center div#form_div form#form input#verify {
-    width: 30%;
-    height: 20%
-    border-color: transparent;
-    border-radius: 30px;
-    background-color: #000000;
-    color: #FFFFFF;
-    font-family: "FangSong";
+    background-color: #4e98fd;
+    border-color: #FFFFFF;
+    border-width: 3px;
+    border-radius: 50px;
 }
