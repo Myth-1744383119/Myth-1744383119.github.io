@@ -1,3 +1,3 @@
 function event404(event) {
-    window.open("404.html");
+    window.open("https://pearpit.github.io/404", "_self");
 }
