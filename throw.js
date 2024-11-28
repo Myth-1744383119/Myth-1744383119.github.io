@@ -1,3 +1,4 @@
 function eventThrow() {
-    new Audio("手中之核.wav").play();
+    const music = new Audio("手中之核.wav");
+    music.play();
 }
