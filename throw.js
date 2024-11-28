@@ -1,3 +1,3 @@
 function eventThrow() {
-    window.alert("暂时没写好");
+    new Audio("手中之核.wav").play();
 }
