@@ -1,2 +1,2 @@
 # - 梨核警告 -
-https://pearpit.github.io
+https://pearcore-lan.github.io
