@@ -1,3 +1,3 @@
 function eventDices() {
-    window.open("https://pearpit.github.io/pearpits-dices", "_self");
+    window.open("https://pearcore-lan.github.io/pearpits-dices", "_self");
 }
